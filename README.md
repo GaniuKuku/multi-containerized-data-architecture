@@ -10,8 +10,11 @@ This project demonstrates a production-ready, multi-container architecture. It p
 
 The application provides an end-to-end data flow: it accepts CSV file uploads, persists the raw data into the PostgreSQL database, and dynamically queries the database to serve summary statistics back to the user interface.
 
-📖 **Read the Full Architectural Breakdown on Medium:** [**Stop Saying "It Works on My Machine": A Data Practitioner’s Guide to Docker Architecture**](https://medium.com/@your_profile/your_article_link)
+## 📝 Featured Article
 
+[![Medium](https://img.shields.io/badge/Medium-Docker%20Architecture-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ganiukuku/your-new-docker-article-link-here)
+
+**"Stop Saying 'It Works on My Machine': A Data Practitioner’s Guide to Docker Architecture."**
 ---
 
 ## 🏗️ Architectural Flow
