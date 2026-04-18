@@ -16,7 +16,7 @@ The application provides an end-to-end data flow: it accepts CSV file uploads, p
 
 ## 🏗️ Architectural Flow
 
-![System Architecture Diagram](flow.png)
+![System Architecture Diagram](app/flow.png)
 
 1. **User Interface:** Users interact with the Streamlit frontend exposed on `localhost:8501`.
 2. **Data Processing:** The Python container reads the uploaded CSV and uses `SQLAlchemy` to establish a secure database connection.
