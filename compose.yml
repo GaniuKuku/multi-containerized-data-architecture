@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    image: streamlit-app:latest
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      POSTGRES_HOST: app-db
+      POSTGRES_PORT: 5432
+    depends_on:
+      - app-db
+
+  app-db:
+    image: postgres:15-alpine
+    env_file:
+      - .env
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  pg_data:
