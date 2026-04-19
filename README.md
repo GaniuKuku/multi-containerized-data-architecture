@@ -12,7 +12,7 @@ The application provides an end-to-end data flow: it accepts CSV file uploads, p
 
 ## 📝 Featured Article
 
-[![Medium](https://img.shields.io/badge/Medium-Docker%20Architecture-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ganiukuku/https://medium.com/@ganiukuku/from-it-works-on-my-machine-to-everywhere-a-practical-guide-to-docker-with-a-real-project-128ef1f8ce7a)
+[![Medium](https://img.shields.io/badge/Medium-Docker%20Guide-black?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ganiukuku/from-it-works-on-my-machine-to-everywhere-a-practical-guide-to-docker-with-a-real-project-128ef1f8ce7a)
 
 **"Stop Saying 'It Works on My Machine': A Data Practitioner’s Guide to Docker Architecture."**
 ---
